@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-header {
+    background-color: #f5ab3c;
+    color: #f4f1f1;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1em;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #191717;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Add some styles for hover effect or other customizations */
+.main-nav a:hover {
+    color: #d55a18; /* Change color on hover */
+}

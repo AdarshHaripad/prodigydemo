@@ -1,0 +1,135 @@
+/* SignIn.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(''); /* Replace with the actual path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    font-family: 'Arial', sans-serif; /* Specify a font if needed */
+    /* Add any additional styles for the body */
+}
+
+.main-div {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: -380px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-right: 200px;
+
+    /* Apply backdrop filter for blurring the background */
+    backdrop-filter: blur(-20px);
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value for transparency */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; /* Center the form content horizontally */
+}
+
+.loginhead {
+    color: #f15c2a;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+
+
+.inputs {
+    margin: 10px 30px;
+    width: 80%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #c1b7b7;
+    border-radius: 10px;
+    background-color: transparent; /* Set the background to transparent */
+   
+}
+
+
+.button {
+    width: 250px;
+    margin: 20px 60px; /* Center the button horizontally */
+    background-color: #c26711;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: #f15c2a;
+}
+
+.fgtpwd {
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Styling the container for the paragraph */
+.my-paragraph {
+    width: 40%; /* Adjust as needed */
+    margin: auto; /* Center the container */
+    background-color: none;
+    padding: 20px; /* Padding around the container */
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+/* Styling the paragraph text */
+.my-paragraph p {
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    color: #333; /* Text color */
+    font-weight: bold;
+}
+
+/* Styling the image container */
+.image-container {
+    text-align: center; /* Center the image horizontally */
+}
+
+/* Styling the image */
+.my-image {
+    max-width: 20%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove default inline spacing */
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+/* Styling the image container */
+.image-container2 {
+    text-align: center; /* Center the image horizontally */
+    margin-right: 600px;
+}
+
+/* Styling the image */
+.my-image2 {
+    max-width: 60%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove default inline spacing */
+    margin-left: 820px;
+   margin-top: -80px;
+
+}
